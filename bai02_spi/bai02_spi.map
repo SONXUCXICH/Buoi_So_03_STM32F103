@@ -1,0 +1,463 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text          0x00000000        0x0 system_stm32f10x.o
+ .data          0x00000000        0x0 system_stm32f10x.o
+ .bss           0x00000000        0x0 system_stm32f10x.o
+ .text          0x00000000        0x0 gpio.o
+ .data          0x00000000        0x0 gpio.o
+ .bss           0x00000000        0x0 gpio.o
+ .text.GPIO_DeInit
+                0x00000000       0xe4 gpio.o
+ .text.GPIO_AFIODeInit
+                0x00000000       0x18 gpio.o
+ .text.GPIO_StructInit
+                0x00000000       0x26 gpio.o
+ .text.GPIO_ReadInputDataBit
+                0x00000000       0x32 gpio.o
+ .text.GPIO_ReadInputData
+                0x00000000       0x18 gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000       0x32 gpio.o
+ .text.GPIO_ReadOutputData
+                0x00000000       0x18 gpio.o
+ .text.GPIO_WriteBit
+                0x00000000       0x2e gpio.o
+ .text.GPIO_Write
+                0x00000000       0x1c gpio.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0x42 gpio.o
+ .text.GPIO_EventOutputConfig
+                0x00000000       0x4c gpio.o
+ .text.GPIO_EventOutputCmd
+                0x00000000       0x20 gpio.o
+ .text.GPIO_PinRemapConfig
+                0x00000000       0xe0 gpio.o
+ .text.GPIO_EXTILineConfig
+                0x00000000       0x80 gpio.o
+ .text.GPIO_ETH_MediaInterfaceConfig
+                0x00000000       0x1c gpio.o
+ .text          0x00000000        0x0 rcc.o
+ .data          0x00000000        0x0 rcc.o
+ .bss           0x00000000        0x0 rcc.o
+ .rodata.APBAHBPrescTable
+                0x00000000       0x10 rcc.o
+ .rodata.ADCPrescTable
+                0x00000000        0x4 rcc.o
+ .text.RCC_DeInit
+                0x00000000       0x5c rcc.o
+ .text.RCC_HSEConfig
+                0x00000000       0x5c rcc.o
+ .text.RCC_WaitForHSEStartUp
+                0x00000000       0x50 rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x3c rcc.o
+ .text.RCC_HSICmd
+                0x00000000       0x20 rcc.o
+ .text.RCC_PLLConfig
+                0x00000000       0x3c rcc.o
+ .text.RCC_PLLCmd
+                0x00000000       0x20 rcc.o
+ .text.RCC_SYSCLKConfig
+                0x00000000       0x38 rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x00000000       0x1c rcc.o
+ .text.RCC_HCLKConfig
+                0x00000000       0x38 rcc.o
+ .text.RCC_PCLK1Config
+                0x00000000       0x38 rcc.o
+ .text.RCC_PCLK2Config
+                0x00000000       0x38 rcc.o
+ .text.RCC_ITConfig
+                0x00000000       0x4c rcc.o
+ .text.RCC_USBCLKConfig
+                0x00000000       0x1c rcc.o
+ .text.RCC_ADCCLKConfig
+                0x00000000       0x38 rcc.o
+ .text.RCC_LSEConfig
+                0x00000000       0x40 rcc.o
+ .text.RCC_LSICmd
+                0x00000000       0x20 rcc.o
+ .text.RCC_RTCCLKConfig
+                0x00000000       0x24 rcc.o
+ .text.RCC_RTCCLKCmd
+                0x00000000       0x20 rcc.o
+ .text.RCC_GetClocksFreq
+                0x00000000      0x16c rcc.o
+ .text.RCC_AHBPeriphClockCmd
+                0x00000000       0x3c rcc.o
+ .text.RCC_APB1PeriphClockCmd
+                0x00000000       0x3c rcc.o
+ .text.RCC_BackupResetCmd
+                0x00000000       0x20 rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000       0x20 rcc.o
+ .text.RCC_MCOConfig
+                0x00000000       0x20 rcc.o
+ .text.RCC_GetFlagStatus
+                0x00000000       0x74 rcc.o
+ .text.RCC_ClearFlag
+                0x00000000       0x1c rcc.o
+ .text.RCC_GetITStatus
+                0x00000000       0x34 rcc.o
+ .text.RCC_ClearITPendingBit
+                0x00000000       0x20 rcc.o
+ .text          0x00000000        0x0 spi.o
+ .data          0x00000000        0x0 spi.o
+ .bss           0x00000000        0x0 spi.o
+ .text.I2S_Init
+                0x00000000      0x168 spi.o
+ .text.I2S_StructInit
+                0x00000000       0x36 spi.o
+ .text.I2S_Cmd  0x00000000       0x3e spi.o
+ .text.SPI_I2S_ITConfig
+                0x00000000       0x60 spi.o
+ .text.SPI_I2S_DMACmd
+                0x00000000       0x46 spi.o
+ .text.SPI_I2S_ReceiveData
+                0x00000000       0x18 spi.o
+ .text.SPI_SSOutputCmd
+                0x00000000       0x3e spi.o
+ .text.SPI_DataSizeConfig
+                0x00000000       0x36 spi.o
+ .text.SPI_TransmitCRC
+                0x00000000       0x22 spi.o
+ .text.SPI_CalculateCRC
+                0x00000000       0x3e spi.o
+ .text.SPI_GetCRC
+                0x00000000       0x30 spi.o
+ .text.SPI_GetCRCPolynomial
+                0x00000000       0x18 spi.o
+ .text.SPI_BiDirectionalLineConfig
+                0x00000000       0x40 spi.o
+ .text.SPI_I2S_ClearFlag
+                0x00000000       0x20 spi.o
+ .text.SPI_I2S_GetITStatus
+                0x00000000       0x74 spi.o
+ .text.SPI_I2S_ClearITPendingBit
+                0x00000000       0x32 spi.o
+ .text          0x00000000       0x14 startup.o
+ .data          0x00000000        0x0 startup.o
+ .bss           0x00000000        0x0 startup.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00010000         xr
+RAM              0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD main.o
+LOAD system_stm32f10x.o
+LOAD gpio.o
+LOAD rcc.o
+LOAD spi.o
+LOAD startup.o
+LOAD /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v7-m/nofp/libgcc.a
+                0x20005000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x08000000      0x10c
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x10c startup.o
+                0x08000000                g_pfnVectors
+                0x0800010c                        . = ALIGN (0x4)
+
+.text           0x0800010c      0xb50
+                0x0800010c                        . = ALIGN (0x4)
+ *(.text)
+ *(.text.*)
+ .text.NVIC_SetPriority
+                0x0800010c       0x54 main.o
+ .text.SysTick_Config
+                0x08000160       0x44 main.o
+ .text.SysTick_Handler
+                0x080001a4       0x1c main.o
+                0x080001a4                SysTick_Handler
+ .text.DelayMs  0x080001c0       0x30 main.o
+                0x080001c0                DelayMs
+ .text.GPIO_Config
+                0x080001f0       0x74 main.o
+                0x080001f0                GPIO_Config
+ .text.SPI1_Config
+                0x08000264       0x6c main.o
+                0x08000264                SPI1_Config
+ .text.SPI1_SendByte
+                0x080002d0       0x34 main.o
+                0x080002d0                SPI1_SendByte
+ .text.MAX7219_Write
+                0x08000304       0x60 main.o
+                0x08000304                MAX7219_Write
+ .text.MAX7219_Clear
+                0x08000364       0x2c main.o
+                0x08000364                MAX7219_Clear
+ .text.MAX7219_Config
+                0x08000390       0x3c main.o
+                0x08000390                MAX7219_Config
+ .text.MAX7219_ShowDigit
+                0x080003cc       0x4c main.o
+                0x080003cc                MAX7219_ShowDigit
+ .text.main     0x08000418       0xcc main.o
+                0x08000418                main
+ .text.SystemInit
+                0x080004e4       0x68 system_stm32f10x.o
+                0x080004e4                SystemInit
+ .text.SystemCoreClockUpdate
+                0x0800054c       0xe4 system_stm32f10x.o
+                0x0800054c                SystemCoreClockUpdate
+ .text.SetSysClock
+                0x08000630        0xc system_stm32f10x.o
+ .text.SetSysClockTo72
+                0x0800063c      0x100 system_stm32f10x.o
+ .text.GPIO_Init
+                0x0800073c      0x178 gpio.o
+                0x0800073c                GPIO_Init
+ .text.GPIO_SetBits
+                0x080008b4       0x1c gpio.o
+                0x080008b4                GPIO_SetBits
+ .text.GPIO_ResetBits
+                0x080008d0       0x1c gpio.o
+                0x080008d0                GPIO_ResetBits
+ .text.RCC_APB2PeriphClockCmd
+                0x080008ec       0x3c rcc.o
+                0x080008ec                RCC_APB2PeriphClockCmd
+ .text.RCC_APB2PeriphResetCmd
+                0x08000928       0x3c rcc.o
+                0x08000928                RCC_APB2PeriphResetCmd
+ .text.RCC_APB1PeriphResetCmd
+                0x08000964       0x3c rcc.o
+                0x08000964                RCC_APB1PeriphResetCmd
+ .text.SPI_I2S_DeInit
+                0x080009a0       0x74 spi.o
+                0x080009a0                SPI_I2S_DeInit
+ .text.SPI_Init
+                0x08000a14       0x86 spi.o
+                0x08000a14                SPI_Init
+ .text.SPI_StructInit
+                0x08000a9a       0x48 spi.o
+                0x08000a9a                SPI_StructInit
+ .text.SPI_Cmd  0x08000ae2       0x3e spi.o
+                0x08000ae2                SPI_Cmd
+ .text.SPI_I2S_SendData
+                0x08000b20       0x1c spi.o
+                0x08000b20                SPI_I2S_SendData
+ .text.SPI_NSSInternalSoftwareConfig
+                0x08000b3c       0x42 spi.o
+                0x08000b3c                SPI_NSSInternalSoftwareConfig
+ .text.SPI_I2S_GetFlagStatus
+                0x08000b7e       0x36 spi.o
+                0x08000b7e                SPI_I2S_GetFlagStatus
+ .text.Reset_Handler
+                0x08000bb4       0x44 startup.o
+                0x08000bb4                Reset_Handler
+ .text.Default_Handler
+                0x08000bf8        0x2 startup.o
+                0x08000bf8                EXTI2_IRQHandler
+                0x08000bf8                DebugMon_Handler
+                0x08000bf8                TIM1_CC_IRQHandler
+                0x08000bf8                HardFault_Handler
+                0x08000bf8                PVD_IRQHandler
+                0x08000bf8                PendSV_Handler
+                0x08000bf8                NMI_Handler
+                0x08000bf8                EXTI3_IRQHandler
+                0x08000bf8                EXTI0_IRQHandler
+                0x08000bf8                I2C2_EV_IRQHandler
+                0x08000bf8                UsageFault_Handler
+                0x08000bf8                ADC1_2_IRQHandler
+                0x08000bf8                SPI1_IRQHandler
+                0x08000bf8                TAMPER_IRQHandler
+                0x08000bf8                DMA1_Channel4_IRQHandler
+                0x08000bf8                USART3_IRQHandler
+                0x08000bf8                RTC_IRQHandler
+                0x08000bf8                DMA1_Channel7_IRQHandler
+                0x08000bf8                CAN1_RX1_IRQHandler
+                0x08000bf8                TIM4_IRQHandler
+                0x08000bf8                I2C1_EV_IRQHandler
+                0x08000bf8                DMA1_Channel6_IRQHandler
+                0x08000bf8                TIM3_IRQHandler
+                0x08000bf8                RCC_IRQHandler
+                0x08000bf8                TIM1_TRG_COM_IRQHandler
+                0x08000bf8                DMA1_Channel1_IRQHandler
+                0x08000bf8                Default_Handler
+                0x08000bf8                EXTI15_10_IRQHandler
+                0x08000bf8                EXTI9_5_IRQHandler
+                0x08000bf8                SPI2_IRQHandler
+                0x08000bf8                MemManage_Handler
+                0x08000bf8                SVC_Handler
+                0x08000bf8                DMA1_Channel5_IRQHandler
+                0x08000bf8                EXTI4_IRQHandler
+                0x08000bf8                USB_LP_CAN1_RX0_IRQHandler
+                0x08000bf8                USB_HP_CAN1_TX_IRQHandler
+                0x08000bf8                DMA1_Channel3_IRQHandler
+                0x08000bf8                TIM1_UP_IRQHandler
+                0x08000bf8                WWDG_IRQHandler
+                0x08000bf8                TIM2_IRQHandler
+                0x08000bf8                TIM1_BRK_IRQHandler
+                0x08000bf8                EXTI1_IRQHandler
+                0x08000bf8                RTCAlarm_IRQHandler
+                0x08000bf8                USART2_IRQHandler
+                0x08000bf8                I2C2_ER_IRQHandler
+                0x08000bf8                DMA1_Channel2_IRQHandler
+                0x08000bf8                CAN1_SCE_IRQHandler
+                0x08000bf8                FLASH_IRQHandler
+                0x08000bf8                BusFault_Handler
+                0x08000bf8                USART1_IRQHandler
+                0x08000bf8                I2C1_ER_IRQHandler
+                0x08000bf8                USBWakeUp_IRQHandler
+ *(.rodata)
+ *(.rodata.*)
+ *fill*         0x08000bfa        0x2 
+ .rodata.numbers
+                0x08000bfc       0x50 main.o
+                0x08000bfc                numbers
+ .rodata.AHBPrescTable
+                0x08000c4c       0x10 system_stm32f10x.o
+                0x08000c4c                AHBPrescTable
+                0x08000c5c                        . = ALIGN (0x4)
+                0x08000c5c                        _etext = .
+
+.glue_7         0x08000c5c        0x0
+ .glue_7        0x08000c5c        0x0 linker stubs
+
+.glue_7t        0x08000c5c        0x0
+ .glue_7t       0x08000c5c        0x0 linker stubs
+
+.vfp11_veneer   0x08000c5c        0x0
+ .vfp11_veneer  0x08000c5c        0x0 linker stubs
+
+.v4_bx          0x08000c5c        0x0
+ .v4_bx         0x08000c5c        0x0 linker stubs
+
+.iplt           0x08000c5c        0x0
+ .iplt          0x08000c5c        0x0 main.o
+
+.rel.dyn        0x08000c5c        0x0
+ .rel.iplt      0x08000c5c        0x0 main.o
+
+.data           0x20000000        0x4 load address 0x08000c5c
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ *(.data.*)
+ .data.SystemCoreClock
+                0x20000000        0x4 system_stm32f10x.o
+                0x20000000                SystemCoreClock
+                0x20000004                        . = ALIGN (0x4)
+                0x20000004                        _edata = .
+                0x08000c5c                        _sidata = LOADADDR (.data)
+
+.igot.plt       0x20000004        0x0 load address 0x08000c60
+ .igot.plt      0x20000004        0x0 main.o
+
+.bss            0x20000004        0x4 load address 0x08000c60
+                0x20000004                        . = ALIGN (0x4)
+                0x20000004                        _sbss = .
+ *(.bss)
+ *(.bss.*)
+ .bss.tick_ms   0x20000004        0x4 main.o
+                0x20000004                tick_ms
+ *(COMMON)
+                0x20000008                        . = ALIGN (0x4)
+                0x20000008                        _ebss = .
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(bai02_spi.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000     0x26ef
+ .debug_info    0x00000000      0xb33 main.o
+ .debug_info    0x00000b33      0x3fa system_stm32f10x.o
+ .debug_info    0x00000f2d      0x6b2 gpio.o
+ .debug_info    0x000015df      0x830 rcc.o
+ .debug_info    0x00001e0f      0x8e0 spi.o
+
+.debug_abbrev   0x00000000      0xac1
+ .debug_abbrev  0x00000000      0x33a main.o
+ .debug_abbrev  0x0000033a      0x1b7 system_stm32f10x.o
+ .debug_abbrev  0x000004f1      0x215 gpio.o
+ .debug_abbrev  0x00000706      0x1e1 rcc.o
+ .debug_abbrev  0x000008e7      0x1da spi.o
+
+.debug_aranges  0x00000000      0x340
+ .debug_aranges
+                0x00000000       0x78 main.o
+ .debug_aranges
+                0x00000078       0x38 system_stm32f10x.o
+ .debug_aranges
+                0x000000b0       0xa8 gpio.o
+ .debug_aranges
+                0x00000158      0x118 rcc.o
+ .debug_aranges
+                0x00000270       0xd0 spi.o
+
+.debug_rnglists
+                0x00000000      0x261
+ .debug_rnglists
+                0x00000000       0x56 main.o
+ .debug_rnglists
+                0x00000056       0x27 system_stm32f10x.o
+ .debug_rnglists
+                0x0000007d       0x7d gpio.o
+ .debug_rnglists
+                0x000000fa       0xce rcc.o
+ .debug_rnglists
+                0x000001c8       0x99 spi.o
+
+.debug_line     0x00000000     0x173c
+ .debug_line    0x00000000      0x397 main.o
+ .debug_line    0x00000397      0x294 system_stm32f10x.o
+ .debug_line    0x0000062b      0x4fc gpio.o
+ .debug_line    0x00000b27      0x6b4 rcc.o
+ .debug_line    0x000011db      0x561 spi.o
+
+.debug_str      0x00000000     0x11aa
+ .debug_str     0x00000000     0x11aa main.o
+                                0x8e5 (size before relaxing)
+ .debug_str     0x000011aa        0x0 system_stm32f10x.o
+                                0x2a3 (size before relaxing)
+ .debug_str     0x000011aa        0x0 gpio.o
+                                0x512 (size before relaxing)
+ .debug_str     0x000011aa        0x0 rcc.o
+                                0x5fc (size before relaxing)
+ .debug_str     0x000011aa        0x0 spi.o
+                                0x61f (size before relaxing)
+
+.comment        0x00000000       0x26
+ .comment       0x00000000       0x26 main.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026        0x0 system_stm32f10x.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026        0x0 gpio.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026        0x0 rcc.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026        0x0 spi.o
+                                 0x27 (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x2b
+ .ARM.attributes
+                0x00000000       0x2d main.o
+ .ARM.attributes
+                0x0000002d       0x2d system_stm32f10x.o
+ .ARM.attributes
+                0x0000005a       0x2d gpio.o
+ .ARM.attributes
+                0x00000087       0x2d rcc.o
+ .ARM.attributes
+                0x000000b4       0x2d spi.o
+ .ARM.attributes
+                0x000000e1       0x21 startup.o
+
+.debug_frame    0x00000000      0xdb4
+ .debug_frame   0x00000000      0x1b8 main.o
+ .debug_frame   0x000001b8       0x98 system_stm32f10x.o
+ .debug_frame   0x00000250      0x2d0 gpio.o
+ .debug_frame   0x00000520      0x4f4 rcc.o
+ .debug_frame   0x00000a14      0x3a0 spi.o

@@ -1,0 +1,518 @@
+
+Discarded input sections
+
+ .text          0x00000000        0x0 main.o
+ .data          0x00000000        0x0 main.o
+ .bss           0x00000000        0x0 main.o
+ .text          0x00000000        0x0 system_stm32f10x.o
+ .data          0x00000000        0x0 system_stm32f10x.o
+ .bss           0x00000000        0x0 system_stm32f10x.o
+ .text          0x00000000        0x0 gpio.o
+ .data          0x00000000        0x0 gpio.o
+ .bss           0x00000000        0x0 gpio.o
+ .text.GPIO_DeInit
+                0x00000000       0xe4 gpio.o
+ .text.GPIO_AFIODeInit
+                0x00000000       0x18 gpio.o
+ .text.GPIO_ReadInputData
+                0x00000000       0x18 gpio.o
+ .text.GPIO_ReadOutputDataBit
+                0x00000000       0x32 gpio.o
+ .text.GPIO_ReadOutputData
+                0x00000000       0x18 gpio.o
+ .text.GPIO_SetBits
+                0x00000000       0x1c gpio.o
+ .text.GPIO_ResetBits
+                0x00000000       0x1c gpio.o
+ .text.GPIO_WriteBit
+                0x00000000       0x2e gpio.o
+ .text.GPIO_Write
+                0x00000000       0x1c gpio.o
+ .text.GPIO_PinLockConfig
+                0x00000000       0x42 gpio.o
+ .text.GPIO_EventOutputConfig
+                0x00000000       0x4c gpio.o
+ .text.GPIO_EventOutputCmd
+                0x00000000       0x20 gpio.o
+ .text.GPIO_PinRemapConfig
+                0x00000000       0xe0 gpio.o
+ .text.GPIO_EXTILineConfig
+                0x00000000       0x80 gpio.o
+ .text.GPIO_ETH_MediaInterfaceConfig
+                0x00000000       0x1c gpio.o
+ .text          0x00000000        0x0 rcc.o
+ .data          0x00000000        0x0 rcc.o
+ .bss           0x00000000        0x0 rcc.o
+ .text.RCC_DeInit
+                0x00000000       0x5c rcc.o
+ .text.RCC_HSEConfig
+                0x00000000       0x5c rcc.o
+ .text.RCC_WaitForHSEStartUp
+                0x00000000       0x50 rcc.o
+ .text.RCC_AdjustHSICalibrationValue
+                0x00000000       0x3c rcc.o
+ .text.RCC_HSICmd
+                0x00000000       0x20 rcc.o
+ .text.RCC_PLLConfig
+                0x00000000       0x3c rcc.o
+ .text.RCC_PLLCmd
+                0x00000000       0x20 rcc.o
+ .text.RCC_SYSCLKConfig
+                0x00000000       0x38 rcc.o
+ .text.RCC_GetSYSCLKSource
+                0x00000000       0x1c rcc.o
+ .text.RCC_HCLKConfig
+                0x00000000       0x38 rcc.o
+ .text.RCC_PCLK1Config
+                0x00000000       0x38 rcc.o
+ .text.RCC_PCLK2Config
+                0x00000000       0x38 rcc.o
+ .text.RCC_ITConfig
+                0x00000000       0x4c rcc.o
+ .text.RCC_USBCLKConfig
+                0x00000000       0x1c rcc.o
+ .text.RCC_ADCCLKConfig
+                0x00000000       0x38 rcc.o
+ .text.RCC_LSEConfig
+                0x00000000       0x40 rcc.o
+ .text.RCC_LSICmd
+                0x00000000       0x20 rcc.o
+ .text.RCC_RTCCLKConfig
+                0x00000000       0x24 rcc.o
+ .text.RCC_RTCCLKCmd
+                0x00000000       0x20 rcc.o
+ .text.RCC_APB1PeriphClockCmd
+                0x00000000       0x3c rcc.o
+ .text.RCC_APB2PeriphResetCmd
+                0x00000000       0x3c rcc.o
+ .text.RCC_APB1PeriphResetCmd
+                0x00000000       0x3c rcc.o
+ .text.RCC_BackupResetCmd
+                0x00000000       0x20 rcc.o
+ .text.RCC_ClockSecuritySystemCmd
+                0x00000000       0x20 rcc.o
+ .text.RCC_MCOConfig
+                0x00000000       0x20 rcc.o
+ .text.RCC_GetFlagStatus
+                0x00000000       0x74 rcc.o
+ .text.RCC_ClearFlag
+                0x00000000       0x1c rcc.o
+ .text.RCC_GetITStatus
+                0x00000000       0x34 rcc.o
+ .text.RCC_ClearITPendingBit
+                0x00000000       0x20 rcc.o
+ .text          0x00000000        0x0 usart.o
+ .data          0x00000000        0x0 usart.o
+ .bss           0x00000000        0x0 usart.o
+ .text.USART_DeInit
+                0x00000000       0xb8 usart.o
+ .text.USART_ClockInit
+                0x00000000       0x56 usart.o
+ .text.USART_ClockStructInit
+                0x00000000       0x2a usart.o
+ .text.USART_ITConfig
+                0x00000000       0x8e usart.o
+ .text.USART_SetAddress
+                0x00000000       0x38 usart.o
+ .text.USART_WakeUpConfig
+                0x00000000       0x36 usart.o
+ .text.USART_ReceiverWakeUpCmd
+                0x00000000       0x3e usart.o
+ .text.USART_LINBreakDetectLengthConfig
+                0x00000000       0x36 usart.o
+ .text.USART_LINCmd
+                0x00000000       0x3e usart.o
+ .text.USART_SendData
+                0x00000000       0x22 usart.o
+ .text.USART_ReceiveData
+                0x00000000       0x1e usart.o
+ .text.USART_SendBreak
+                0x00000000       0x22 usart.o
+ .text.USART_SetGuardTime
+                0x00000000       0x3a usart.o
+ .text.USART_SetPrescaler
+                0x00000000       0x38 usart.o
+ .text.USART_SmartCardCmd
+                0x00000000       0x3e usart.o
+ .text.USART_SmartCardNACKCmd
+                0x00000000       0x3e usart.o
+ .text.USART_HalfDuplexCmd
+                0x00000000       0x3e usart.o
+ .text.USART_OverSampling8Cmd
+                0x00000000       0x42 usart.o
+ .text.USART_OneBitMethodCmd
+                0x00000000       0x3e usart.o
+ .text.USART_IrDAConfig
+                0x00000000       0x36 usart.o
+ .text.USART_IrDACmd
+                0x00000000       0x3e usart.o
+ .text.USART_GetFlagStatus
+                0x00000000       0x36 usart.o
+ .text.USART_ClearFlag
+                0x00000000       0x20 usart.o
+ .text.USART_GetITStatus
+                0x00000000       0xb4 usart.o
+ .text.USART_ClearITPendingBit
+                0x00000000       0x38 usart.o
+ .text          0x00000000        0x0 dma.o
+ .data          0x00000000        0x0 dma.o
+ .bss           0x00000000        0x0 dma.o
+ .text.DMA_ITConfig
+                0x00000000       0x3a dma.o
+ .text.DMA_GetCurrDataCounter
+                0x00000000       0x18 dma.o
+ .text.DMA_GetITStatus
+                0x00000000       0x50 dma.o
+ .text.DMA_ClearITPendingBit
+                0x00000000       0x34 dma.o
+ .text          0x00000000       0x14 startup.o
+ .data          0x00000000        0x0 startup.o
+ .bss           0x00000000        0x0 startup.o
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+FLASH            0x08000000         0x00010000         xr
+RAM              0x20000000         0x00005000         xrw
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+LOAD main.o
+LOAD system_stm32f10x.o
+LOAD gpio.o
+LOAD rcc.o
+LOAD usart.o
+LOAD dma.o
+LOAD startup.o
+LOAD /usr/lib/gcc/arm-none-eabi/14.2.1/thumb/v7-m/nofp/libgcc.a
+                0x20005000                        _estack = (ORIGIN (RAM) + LENGTH (RAM))
+
+.isr_vector     0x08000000      0x10c
+                0x08000000                        . = ALIGN (0x4)
+ *(.isr_vector)
+ .isr_vector    0x08000000      0x10c startup.o
+                0x08000000                g_pfnVectors
+                0x0800010c                        . = ALIGN (0x4)
+
+.text           0x0800010c     0x1040
+                0x0800010c                        . = ALIGN (0x4)
+ *(.text)
+ *(.text.*)
+ .text.NVIC_SetPriority
+                0x0800010c       0x54 main.o
+ .text.SysTick_Config
+                0x08000160       0x44 main.o
+ .text.SysTick_Handler
+                0x080001a4       0x1c main.o
+                0x080001a4                SysTick_Handler
+ .text.Button_Config
+                0x080001c0       0x38 main.o
+                0x080001c0                Button_Config
+ .text.USART1_Config
+                0x080001f8       0x90 main.o
+                0x080001f8                USART1_Config
+ .text.DMA_TX_Config
+                0x08000288       0x78 main.o
+                0x08000288                DMA_TX_Config
+ .text.Build_Message
+                0x08000300       0xc8 main.o
+                0x08000300                Build_Message
+ .text.DMA_Send
+                0x080003c8       0x44 main.o
+                0x080003c8                DMA_Send
+ .text.DMA_Service
+                0x0800040c       0x70 main.o
+                0x0800040c                DMA_Service
+ .text.main     0x0800047c       0xf4 main.o
+                0x0800047c                main
+ .text.SystemInit
+                0x08000570       0x68 system_stm32f10x.o
+                0x08000570                SystemInit
+ .text.SystemCoreClockUpdate
+                0x080005d8       0xe4 system_stm32f10x.o
+                0x080005d8                SystemCoreClockUpdate
+ .text.SetSysClock
+                0x080006bc        0xc system_stm32f10x.o
+ .text.SetSysClockTo72
+                0x080006c8      0x100 system_stm32f10x.o
+ .text.GPIO_Init
+                0x080007c8      0x178 gpio.o
+                0x080007c8                GPIO_Init
+ .text.GPIO_StructInit
+                0x08000940       0x26 gpio.o
+                0x08000940                GPIO_StructInit
+ .text.GPIO_ReadInputDataBit
+                0x08000966       0x32 gpio.o
+                0x08000966                GPIO_ReadInputDataBit
+ .text.RCC_GetClocksFreq
+                0x08000998      0x16c rcc.o
+                0x08000998                RCC_GetClocksFreq
+ .text.RCC_AHBPeriphClockCmd
+                0x08000b04       0x3c rcc.o
+                0x08000b04                RCC_AHBPeriphClockCmd
+ .text.RCC_APB2PeriphClockCmd
+                0x08000b40       0x3c rcc.o
+                0x08000b40                RCC_APB2PeriphClockCmd
+ .text.USART_Init
+                0x08000b7c      0x174 usart.o
+                0x08000b7c                USART_Init
+ .text.USART_StructInit
+                0x08000cf0       0x38 usart.o
+                0x08000cf0                USART_StructInit
+ .text.USART_Cmd
+                0x08000d28       0x3e usart.o
+                0x08000d28                USART_Cmd
+ .text.USART_DMACmd
+                0x08000d66       0x46 usart.o
+                0x08000d66                USART_DMACmd
+ .text.DMA_DeInit
+                0x08000dac      0x178 dma.o
+                0x08000dac                DMA_DeInit
+ .text.DMA_Init
+                0x08000f24       0x7c dma.o
+                0x08000f24                DMA_Init
+ .text.DMA_StructInit
+                0x08000fa0       0x54 dma.o
+                0x08000fa0                DMA_StructInit
+ .text.DMA_Cmd  0x08000ff4       0x38 dma.o
+                0x08000ff4                DMA_Cmd
+ .text.DMA_SetCurrDataCounter
+                0x0800102c       0x1c dma.o
+                0x0800102c                DMA_SetCurrDataCounter
+ .text.DMA_GetFlagStatus
+                0x08001048       0x50 dma.o
+                0x08001048                DMA_GetFlagStatus
+ .text.DMA_ClearFlag
+                0x08001098       0x34 dma.o
+                0x08001098                DMA_ClearFlag
+ .text.Reset_Handler
+                0x080010cc       0x44 startup.o
+                0x080010cc                Reset_Handler
+ .text.Default_Handler
+                0x08001110        0x2 startup.o
+                0x08001110                EXTI2_IRQHandler
+                0x08001110                DebugMon_Handler
+                0x08001110                TIM1_CC_IRQHandler
+                0x08001110                HardFault_Handler
+                0x08001110                PVD_IRQHandler
+                0x08001110                PendSV_Handler
+                0x08001110                NMI_Handler
+                0x08001110                EXTI3_IRQHandler
+                0x08001110                EXTI0_IRQHandler
+                0x08001110                I2C2_EV_IRQHandler
+                0x08001110                UsageFault_Handler
+                0x08001110                ADC1_2_IRQHandler
+                0x08001110                SPI1_IRQHandler
+                0x08001110                TAMPER_IRQHandler
+                0x08001110                DMA1_Channel4_IRQHandler
+                0x08001110                USART3_IRQHandler
+                0x08001110                RTC_IRQHandler
+                0x08001110                DMA1_Channel7_IRQHandler
+                0x08001110                CAN1_RX1_IRQHandler
+                0x08001110                TIM4_IRQHandler
+                0x08001110                I2C1_EV_IRQHandler
+                0x08001110                DMA1_Channel6_IRQHandler
+                0x08001110                TIM3_IRQHandler
+                0x08001110                RCC_IRQHandler
+                0x08001110                TIM1_TRG_COM_IRQHandler
+                0x08001110                DMA1_Channel1_IRQHandler
+                0x08001110                Default_Handler
+                0x08001110                EXTI15_10_IRQHandler
+                0x08001110                EXTI9_5_IRQHandler
+                0x08001110                SPI2_IRQHandler
+                0x08001110                MemManage_Handler
+                0x08001110                SVC_Handler
+                0x08001110                DMA1_Channel5_IRQHandler
+                0x08001110                EXTI4_IRQHandler
+                0x08001110                USB_LP_CAN1_RX0_IRQHandler
+                0x08001110                USB_HP_CAN1_TX_IRQHandler
+                0x08001110                DMA1_Channel3_IRQHandler
+                0x08001110                TIM1_UP_IRQHandler
+                0x08001110                WWDG_IRQHandler
+                0x08001110                TIM2_IRQHandler
+                0x08001110                TIM1_BRK_IRQHandler
+                0x08001110                EXTI1_IRQHandler
+                0x08001110                RTCAlarm_IRQHandler
+                0x08001110                USART2_IRQHandler
+                0x08001110                I2C2_ER_IRQHandler
+                0x08001110                DMA1_Channel2_IRQHandler
+                0x08001110                CAN1_SCE_IRQHandler
+                0x08001110                FLASH_IRQHandler
+                0x08001110                BusFault_Handler
+                0x08001110                USART1_IRQHandler
+                0x08001110                I2C1_ER_IRQHandler
+                0x08001110                USBWakeUp_IRQHandler
+ *(.rodata)
+ *fill*         0x08001112        0x2 
+ .rodata        0x08001114       0x12 main.o
+ *(.rodata.*)
+ *fill*         0x08001126        0x2 
+ .rodata.AHBPrescTable
+                0x08001128       0x10 system_stm32f10x.o
+                0x08001128                AHBPrescTable
+ .rodata.APBAHBPrescTable
+                0x08001138       0x10 rcc.o
+ .rodata.ADCPrescTable
+                0x08001148        0x4 rcc.o
+                0x0800114c                        . = ALIGN (0x4)
+                0x0800114c                        _etext = .
+
+.glue_7         0x0800114c        0x0
+ .glue_7        0x0800114c        0x0 linker stubs
+
+.glue_7t        0x0800114c        0x0
+ .glue_7t       0x0800114c        0x0 linker stubs
+
+.vfp11_veneer   0x0800114c        0x0
+ .vfp11_veneer  0x0800114c        0x0 linker stubs
+
+.v4_bx          0x0800114c        0x0
+ .v4_bx         0x0800114c        0x0 linker stubs
+
+.iplt           0x0800114c        0x0
+ .iplt          0x0800114c        0x0 main.o
+
+.rel.dyn        0x0800114c        0x0
+ .rel.iplt      0x0800114c        0x0 main.o
+
+.data           0x20000000        0x4 load address 0x0800114c
+                0x20000000                        . = ALIGN (0x4)
+                0x20000000                        _sdata = .
+ *(.data)
+ *(.data.*)
+ .data.SystemCoreClock
+                0x20000000        0x4 system_stm32f10x.o
+                0x20000000                SystemCoreClock
+                0x20000004                        . = ALIGN (0x4)
+                0x20000004                        _edata = .
+                0x0800114c                        _sidata = LOADADDR (.data)
+
+.igot.plt       0x20000004        0x0 load address 0x08001150
+ .igot.plt      0x20000004        0x0 main.o
+
+.bss            0x20000004       0x48 load address 0x08001150
+                0x20000004                        . = ALIGN (0x4)
+                0x20000004                        _sbss = .
+ *(.bss)
+ *(.bss.*)
+ .bss.tick_ms   0x20000004        0x4 main.o
+                0x20000004                tick_ms
+ .bss.tx_buffer
+                0x20000008       0x40 main.o
+ .bss.dma_busy  0x20000048        0x1 main.o
+ *(COMMON)
+                0x2000004c                        . = ALIGN (0x4)
+ *fill*         0x20000049        0x3 
+                0x2000004c                        _ebss = .
+
+/DISCARD/
+ *(.note.GNU-stack)
+OUTPUT(bai03_uart_dma.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000     0x2d57
+ .debug_info    0x00000000      0xc94 main.o
+ .debug_info    0x00000c94      0x3fa system_stm32f10x.o
+ .debug_info    0x0000108e      0x6b2 gpio.o
+ .debug_info    0x00001740      0x830 rcc.o
+ .debug_info    0x00001f70      0x9c9 usart.o
+ .debug_info    0x00002939      0x41e dma.o
+
+.debug_abbrev   0x00000000      0xc0e
+ .debug_abbrev  0x00000000      0x311 main.o
+ .debug_abbrev  0x00000311      0x1b7 system_stm32f10x.o
+ .debug_abbrev  0x000004c8      0x215 gpio.o
+ .debug_abbrev  0x000006dd      0x1e1 rcc.o
+ .debug_abbrev  0x000008be      0x1bd usart.o
+ .debug_abbrev  0x00000a7b      0x193 dma.o
+
+.debug_aranges  0x00000000      0x3d0
+ .debug_aranges
+                0x00000000       0x68 main.o
+ .debug_aranges
+                0x00000068       0x38 system_stm32f10x.o
+ .debug_aranges
+                0x000000a0       0xa8 gpio.o
+ .debug_aranges
+                0x00000148      0x118 rcc.o
+ .debug_aranges
+                0x00000260      0x100 usart.o
+ .debug_aranges
+                0x00000360       0x70 dma.o
+
+.debug_rnglists
+                0x00000000      0x2cd
+ .debug_rnglists
+                0x00000000       0x4c main.o
+ .debug_rnglists
+                0x0000004c       0x27 system_stm32f10x.o
+ .debug_rnglists
+                0x00000073       0x7d gpio.o
+ .debug_rnglists
+                0x000000f0       0xce rcc.o
+ .debug_rnglists
+                0x000001be       0xbf usart.o
+ .debug_rnglists
+                0x0000027d       0x50 dma.o
+
+.debug_line     0x00000000     0x1c69
+ .debug_line    0x00000000      0x3ed main.o
+ .debug_line    0x000003ed      0x294 system_stm32f10x.o
+ .debug_line    0x00000681      0x4fc gpio.o
+ .debug_line    0x00000b7d      0x6b4 rcc.o
+ .debug_line    0x00001231      0x68a usart.o
+ .debug_line    0x000018bb      0x3ae dma.o
+
+.debug_str      0x00000000     0x147c
+ .debug_str     0x00000000     0x147c main.o
+                                0xa0c (size before relaxing)
+ .debug_str     0x0000147c        0x0 system_stm32f10x.o
+                                0x2b3 (size before relaxing)
+ .debug_str     0x0000147c        0x0 gpio.o
+                                0x522 (size before relaxing)
+ .debug_str     0x0000147c        0x0 rcc.o
+                                0x60c (size before relaxing)
+ .debug_str     0x0000147c        0x0 usart.o
+                                0x6c2 (size before relaxing)
+ .debug_str     0x0000147c        0x0 dma.o
+                                0x3b3 (size before relaxing)
+
+.comment        0x00000000       0x26
+ .comment       0x00000000       0x26 main.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026        0x0 system_stm32f10x.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026        0x0 gpio.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026        0x0 rcc.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026        0x0 usart.o
+                                 0x27 (size before relaxing)
+ .comment       0x00000026        0x0 dma.o
+                                 0x27 (size before relaxing)
+
+.ARM.attributes
+                0x00000000       0x2b
+ .ARM.attributes
+                0x00000000       0x2d main.o
+ .ARM.attributes
+                0x0000002d       0x2d system_stm32f10x.o
+ .ARM.attributes
+                0x0000005a       0x2d gpio.o
+ .ARM.attributes
+                0x00000087       0x2d rcc.o
+ .ARM.attributes
+                0x000000b4       0x2d usart.o
+ .ARM.attributes
+                0x000000e1       0x2d dma.o
+ .ARM.attributes
+                0x0000010e       0x21 startup.o
+
+.debug_frame    0x00000000     0x1024
+ .debug_frame   0x00000000      0x170 main.o
+ .debug_frame   0x00000170       0x98 system_stm32f10x.o
+ .debug_frame   0x00000208      0x2d0 gpio.o
+ .debug_frame   0x000004d8      0x4f4 rcc.o
+ .debug_frame   0x000009cc      0x490 usart.o
+ .debug_frame   0x00000e5c      0x1c8 dma.o
